@@ -18,10 +18,6 @@
 | 公网交互原型（无需登录） | [在线体验](https://liulcdt.github.io/task-planner-demo/) |
 | 原型源码与本地运行说明 | [prototype/README.md](prototype/README.md) |
 
-## 验证情况
-
-我已检查原型的正常生成、最后一次额度、零额度、明确失败与重试、同账号请求拦截等交互，具体结果见[原型自测记录](docs/product/VERIFICATION.md)。这些检查基于模拟数据，真实服务端的并发、扣费与结果保存仍需在实现后按 PRD 验收。
-
 ## 范围与后续事项
 
 - 沿用现有账号与任务能力；不新增支付、订阅或自动补充额度。
